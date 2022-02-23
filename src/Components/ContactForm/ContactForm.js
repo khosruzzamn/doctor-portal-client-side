@@ -25,7 +25,7 @@ const ContactForm = () => {
       );
 
     axios
-      .post("http://localhost:5000/contact", data)
+      .post("https://mysterious-bastion-18790.herokuapp.com/contact", data)
 
       .then((res) => {
         if (res.data.insertedId) {
